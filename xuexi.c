@@ -9,10 +9,9 @@ int main (void)
         scanf("%d",&a[i]);
     }
     max=findMax(a,LEN);
-    
     printf("Max is %d\n",max);
     return 0;
-
+}
 int findMax(int b[],int n)
 {
     int max,i;
